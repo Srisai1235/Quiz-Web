@@ -1,19 +1,38 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 10px;
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-  }
-  
-  .footer a {
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .footer span {
-    font-size: 14px;
-  }
+    background-color: #f4f4f4;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.option:hover {
+    background: #0056b3;
+}
+#nextBtn {
+    margin-top: 20px;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
