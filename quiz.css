@@ -1,38 +1,64 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
+
 .container {
     width: 50%;
     margin: auto;
     background: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
+    transition: transform 0.3s ease-in-out;
 }
+
+.container:hover {
+    transform: scale(1.02);
+}
+
 .option {
     display: block;
     margin: 10px 0;
-    padding: 10px;
-    background: #007BFF;
+    padding: 12px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
+
 .option:hover {
-    background: #0056b3;
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
 #nextBtn {
     margin-top: 20px;
-    padding: 10px;
-    background: green;
+    padding: 12px;
+    background: linear-gradient(to right, #28a745, #218838);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
     display: none;
+    transition: all 0.3s ease;
+}
+
+#nextBtn:hover {
+    background: linear-gradient(to right, #218838, #28a745);
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
